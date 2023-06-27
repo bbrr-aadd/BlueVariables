@@ -2,7 +2,6 @@
     const plugin = BF2042Portal.Plugins.getPlugin("bluevariables");
 
     plugin.initializeWorkspace = function () {
-        /** @type import("blockly").Theme */
         const theme = _Blockly.getMainWorkspace().getTheme();
 
         const variableStyle = theme.blockStyles["variable-block-style"];
